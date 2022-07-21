@@ -4,12 +4,16 @@ body{
 /* this is banner part  */
 .banner{
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    
     background-color: #161616;
     height: 450px;
     border-radius: 20px;
+}
+.margin{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .banner-info{
     width: 50%;
@@ -19,6 +23,7 @@ body{
 .banner-images{
     padding: 5%;
 }
+
 .big{
     font-size: 50px;
     color: antiquewhite;
@@ -33,5 +38,98 @@ p{
     background: #DD0000;
     border-radius: 5px;
     color: rgb(247, 246, 244);
-  
 }
+/* this is the start of blog and video section */
+
+.menu{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.all_class{
+   width: 265px;
+   height: 200px;
+   padding: 20px;
+   background-color: #101010;
+   border-radius: 7px;
+   margin-right: 7%;
+}
+.all_class a{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.class1{
+    background-color: #fff;
+   height: 40px;
+   width: 90%;
+   text-align: center;
+   margin: auto;
+   border-radius: 7px;
+}
+.class1 a{
+    color:black;
+}
+.class2{
+    background-color: #fff;
+    height: 40px;
+    width: 90%;
+   text-align: center;
+   margin: auto;
+   border-radius: 7px;
+}
+.class2 a{
+    color:black;
+}
+.class3{
+    background-color: red;
+    height: 40px;
+    width: 90%;
+   text-align: center;
+   margin: auto;
+   border-radius: 7px;
+   
+}
+.class3 a{
+    color:white;
+}
+/* this ih th start of video section  */
+.blogs { 
+    display: grid; 
+     grid-template-columns: repeat( 3, 1fr); 
+     grid-column-gap: 0px;
+}
+.blog{
+    width: 100%;
+}
+
+.blog-info .b-link {
+    border: 1px solid black;
+    text-decoration: none;
+    width: 80px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    height: 22px;
+}
+.blog .blog-image img{
+    width: 75%;
+}
+.blog-info a{
+    text-decoration: none;
+}
+.blog-info .b-time img{
+    color: black;
+    width: 20px;
+    margin-right: 5px;
+    
+}
+.b-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* this is the start of footer */
