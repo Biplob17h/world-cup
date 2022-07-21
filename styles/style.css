@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* this is banner part  */
+.banner{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: #161616;
+    height: 450px;
+    border-radius: 20px;
+}
+.banner-info{
+    width: 50%;
+    margin-right: 5%;
+    padding: 5%;
+}
+.banner-images{
+    padding: 5%;
+}
+.big{
+    font-size: 50px;
+    color: antiquewhite;
+}
+p{
+    color: antiquewhite;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: rgb(247, 246, 244);
+  
+}
