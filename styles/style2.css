@@ -59,7 +59,7 @@ p{
    padding: 20px;
    background-color: #101010;
    border-radius: 7px;
-   margin-right: 5px;
+   margin-right: 50px;
    
 }
 .all_class a{
@@ -104,23 +104,20 @@ p{
 .class3 a{
     color:white;
 }
-/* this ih th start of video section  */
-.blogs { 
-    display: grid; 
-     grid-template-columns: repeat( 3, 1fr); 
-     grid-column-gap: 10px;
-     
+/* this ih th start of match section  */
+.flags{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
 }
-.blogs p{
-    color: black;
-}
-.blog{
-    width: 100%;
-  
-}
-.blog-1 img {
 
-}
+ .flag .work{ 
+    color: black;
+    display: flex;
+    
+} 
+
 
 
 /* this is the start of footer */
